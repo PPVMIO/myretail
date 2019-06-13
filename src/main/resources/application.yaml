@@ -1,13 +1,8 @@
 redsky:
   url: https://redsky.target.com/v2/pdp/tcin/
 
-amazonProperties:
-  endpointUrl: https://s3.us-east-2.amazonaws.com
-  accessKey: AKIAXYHHBRWCVMCCI77G
-  secretKey: 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
-  bucketName: myretail-bucket
-
 spring:
   data:
     mongodb:
-      host: 3.85.128.203
+      host: localhost
+      port: 27107
