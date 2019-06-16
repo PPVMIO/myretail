@@ -1,10 +1,8 @@
 package com.pp.myretail.controller;
 
 import com.pp.myretail.exceptions.BadRequestException;
-import com.pp.myretail.model.Price;
 import com.pp.myretail.model.Product;
 import com.pp.myretail.service.MyRetailService;
-import org.junit.Before;
 import org.junit.Test;
 
 import static org.mockito.Mockito.mock;

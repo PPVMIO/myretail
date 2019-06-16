@@ -1,6 +1,5 @@
 package com.pp.myretail.service;
 
-import com.pp.myretail.exceptions.MongoUnavailableException;
 import com.pp.myretail.exceptions.PriceNotFoundException;
 import com.pp.myretail.model.Price;
 import com.pp.myretail.model.Product;
@@ -10,7 +9,7 @@ import org.junit.Test;
 
 import java.util.Optional;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 import static org.mockito.ArgumentMatchers.anyString;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;

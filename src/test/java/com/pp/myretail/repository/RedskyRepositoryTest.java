@@ -9,9 +9,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.client.HttpClientErrorException;
 import org.springframework.web.client.RestTemplate;
 
-import static org.hamcrest.Matchers.any;
-import static org.junit.Assert.*;
-import static org.mockito.ArgumentMatchers.anyString;
+import static org.junit.Assert.assertEquals;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 

@@ -9,7 +9,6 @@ import com.pp.myretail.model.Product;
 import com.pp.myretail.service.MyRetailService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.logging.log4j.util.Strings;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
