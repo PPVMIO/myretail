@@ -6,6 +6,7 @@ This is an application built for a target case study.  Some of the components us
 * Lombok
 * Spring Data Mongodb
 * Mockito (Testing)
+* Embedded Mongo (Testing)
 
 ## Prerequisites
 You will need to have mongo running somewhere. If you have docker you can run
@@ -66,6 +67,9 @@ The spring boot application will come up on port 8080. Note, you will most likel
         "currency_code": "YEN"
       }
     }
+
+### Testing
+There are several unit tests that test individual class logic.  There is also also a test class called `MyRetailApplicationIntegrationTest` that bootstraps a mongo repository as well as the entire spring application.  The test then makes requests against the bootstrapped application to confirm the full happy path works properly.
 
 
 
